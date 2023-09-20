@@ -1,0 +1,54 @@
+#img1{
+    border-radius: 50%;
+    }
+
+
+
+/* Style du tableau */
+#tab1 {
+    border-collapse: collapse;
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  /* Style de la légende du tableau */
+  #tab1 caption {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  /* Style des en-têtes de colonnes */
+  #tab1 th {
+    background-color: #333;
+    color: #fff;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Style des lignes du tableau (alternance de couleurs pour une meilleure lisibilité) */
+  #tab1 tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #tab1 tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  /* Style des cellules du tableau */
+  #tab1 td {
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Style des cellules de la première colonne */
+  #tab1 td:first-child {
+    font-weight: bold;
+  }
+  
+  /* Style des cellules de la colonne "age" */
+  #tab1 td:nth-child(3) {
+    color: blue;
+    font-weight: bold;
+  }
+  
